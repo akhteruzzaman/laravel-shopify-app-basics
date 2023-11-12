@@ -6,7 +6,6 @@
 
 #### Step 2: Create a new App.
 
-(https://myoctocat.com/assets/images/base-octocat.svg)
 
    - *Note:* Create the app manually.
 
