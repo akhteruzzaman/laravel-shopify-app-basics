@@ -16,3 +16,18 @@
 
 ```bash
 composer create-project laravel/laravel example-app
+
+
+## Step 5: Install Kyon Laravel Shopify Package
+
+- Link: [Kyon Laravel Shopify Package](https://github.com/Kyon147/laravel-shopify)
+
+### Installation Guide
+
+- [Installation Guide](https://github.com/Kyon147/laravel-shopify/wiki/Installation)
+
+## Step 6: Install the Package
+
+```bash
+composer require kyon147/laravel-shopify
+
