@@ -6,7 +6,7 @@
 
 #### Step 2: Create a new App.
 
-(https://raw.githubusercontent.com/akhteruzzaman/laravel-shopify-app-basics/master/read-me-images/q.png)
+!(https://raw.githubusercontent.com/akhteruzzaman/laravel-shopify-app-basics/master/read-me-images/q.png)
 
 
 
