@@ -6,7 +6,7 @@
 
 #### Step 2: Create a new App.
 
-![Alt Text]([URL](https://raw.githubusercontent.com/akhteruzzaman/laravel-shopify-app-basics/master/read-me-images/q.png))
+![Alt Text]([(https://raw.githubusercontent.com/akhteruzzaman/laravel-shopify-app-basics/master/read-me-images/q.png)])
 
 
 
