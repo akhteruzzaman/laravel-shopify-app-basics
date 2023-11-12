@@ -6,7 +6,7 @@
 
 #### Step 2: Create a new App.
 
-![GitHub Logo](https://github.com/your-username/your-repository/blob/main/images/logo.png)
+[GitHub Logo](https://github.com/your-username/your-repository/blob/main/images/logo.png)
 
    - *Note:* Create the app manually.
 
