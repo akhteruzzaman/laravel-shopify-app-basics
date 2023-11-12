@@ -6,7 +6,7 @@
 
 #### Step 2: Create a new App.
 
-[GitHub Logo](https://github.com/your-username/your-repository/blob/main/images/logo.png)
+(https://myoctocat.com/assets/images/base-octocat.svg)
 
    - *Note:* Create the app manually.
 
