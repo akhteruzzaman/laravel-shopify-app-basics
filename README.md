@@ -6,7 +6,6 @@
 
 #### Step 2: Create a new App.
 
-
    - *Note:* Create the app manually.
 
 #### Step 3: Save the client credentials for future use.
