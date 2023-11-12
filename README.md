@@ -6,6 +6,9 @@
 
 #### Step 2: Create a new App.
 
+![GitHub Logo]([https://example.com/path/to/your/image.png](https://raw.githubusercontent.com/akhteruzzaman/laravel-shopify-app-basics/master/read-me-images/q.png))
+
+
 
    - *Note:* Create the app manually.
 
