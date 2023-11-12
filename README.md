@@ -14,7 +14,7 @@
 
 **Step 4:** Install Laravel in localhost.
 
-```bash
+
 composer create-project laravel/laravel example-app
 
 
@@ -28,6 +28,6 @@ composer create-project laravel/laravel example-app
 
 ## Step 6: Install the Package
 
-```bash
+
 composer require kyon147/laravel-shopify
 
