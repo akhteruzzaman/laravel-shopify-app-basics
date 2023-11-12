@@ -1,6 +1,6 @@
 # Installation
 
-## Shopify
+#### Shopify
 
 ## Step 1: Create an account at [Shopify Dev](https://www.shopify.com/login).
 
