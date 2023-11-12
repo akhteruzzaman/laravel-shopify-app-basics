@@ -2,9 +2,9 @@
 
 ## Shopify
 
-**Step 1:** Create an account at [Shopify Dev](https://www.shopify.com/login).
+##Step 1: Create an account at [Shopify Dev](https://www.shopify.com/login).
 
-**Step 2:** Create a new App.
+##Step 2: Create a new App.
 
    - *Note:* Create the app manually.
 
@@ -12,7 +12,7 @@
 
 ## Laravel
 
-**Step 4:** Install Laravel in localhost.
+##Step 4: Install Laravel in localhost.
 
 
 composer create-project laravel/laravel example-app
