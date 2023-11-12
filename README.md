@@ -15,7 +15,7 @@
 #### Step 4: Install Laravel in localhost.
 
 
-composer create-project laravel/laravel example-app
+``` composer create-project laravel/laravel example-app ```
 
 
 #### Step 5: Install Kyon Laravel Shopify Package
