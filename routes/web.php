@@ -2,34 +2,33 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ShopifyController;
+use App\Http\Controllers\WidgetController;
 
-
-
+Route::group(['middleware' => ['verify.shopify']], function () {
 
 //--------------pages-------------
 Route::get('/',[ShopifyController::class,'homePage'])
-      ->middleware(['verify.shopify'])
       ->name('home');
       
 Route::get('/about',[ShopifyController::class,'aboutPage'])
-      ->middleware(['verify.shopify'])
       ->name('about');  
 
 Route::get('/pricing',[ShopifyController::class,'pricingPage'])
-      ->middleware(['verify.shopify'])
       ->name('pricing');  
 
 // -------------groups------------
 Route::get('/groups',[ShopifyController::class,'getGroups'])
-      ->middleware(['verify.shopify'])
       ->name('groups'); 
 
 Route::post('/groups', [ShopifyController::class, 'groupStore'])
-      ->middleware(['verify.shopify'])
-      ->name('group.save');      
-
+      ->name('group.save');
 
 // --------------products---------
-Route::get('/products',[ShopifyController::class,'getProducts'])
-      ->middleware(['verify.shopify'])
+Route::get('/products',[ShopifyController::class,'getProducts'])    
       ->name('products');
+
+});
+
+
+Route::get('/storefront/widgets/general-group',[WidgetController::class, 'showGeneralFaqWidget'])
+    ->name('widget.general-group');

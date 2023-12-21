@@ -8,7 +8,7 @@
     <div class="max-w-screen-xl mx-auto px-4 md:text-center md:px-8">
         <div class="max-w-xl md:mx-auto">
             <h3 class="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                Welcome to our FAQ App
+                Welcome to FAQ App
             </h3>
             <p class="mt-3 text-gray-600">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.
