@@ -96,9 +96,6 @@
                                         <td class="pr-6 py-4 whitespace-nowrap"><span
                                                 class="px-3 py-2 rounded-full font-semibold text-xs text-green-600 bg-green-50">Active</span>
                                         </td>
-
-                                        
-
                                     </tr>
                                 @endforeach
                             </tbody>
