@@ -77,4 +77,30 @@ Next, inside the class, add:
 use ShopModel;
 ```
 
-Thank you 
+# Shopify API 
+
+## Product API 
+
+#### Step 1: Call shopify Product API in Controller
+```
+function getProducts(Request $request){
+    $shop = $request->user();
+    $products = $shop->api()->rest('GET','/admin/api/2023-10/products.json');       
+    return view('products.products', ['products' => $products['body']['products']]);
+    //dd($products);
+}
+```
+
+#### Step 2: Use foreach loop for show Products on View file
+```
+ @foreach ($products as $product)
+    <tr>
+        <td>
+            {{ $product['id'] }}
+        </td>
+        <td>
+            {{ $product['title'] }}
+        </td>
+    </tr>
+@endforeach
+```
